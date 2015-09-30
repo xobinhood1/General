@@ -1,0 +1,108 @@
+
+.post_input{
+	position: relative;
+	font-size: 2.6vh;
+}
+
+.reply_input{
+	position: relative;
+	font-size: 1.6vh;
+		left: 2em;
+
+}
+
+
+
+  .discuss_post{
+    postion:relative;
+    color:grey;
+    font-size:2vh;
+  }
+	.discuss_post a
+	{
+		cursor: pointer;
+	}
+  .discuss_namer_post,.discuss_namer_reply{
+    position:relative;
+    top:-1em;
+    color:#37B1CE;
+    font-size:2.5vh;
+  }
+  .discuss_namer_reply{
+    top:-.1em;
+
+    color:#545252;
+    font-size:2.5vh;
+  }
+  .discuss_content{
+    position:relative;
+    top:-1.5em;
+  }
+  .discuss_aminities{
+    position:relative;
+    top:-1em;
+  }
+
+  .discuss_last_reply{
+    background-color:#ECE9E9;
+  }
+  hr{
+    display: block; height: 3px;
+      border: 0; border-top: 1px solid #ccc;
+      margin: 1em 0; padding: 0;
+      }
+  .discuss_post{
+   background:white;
+   border:2px solid #DADADA;
+    }
+
+  .discuss_reply_retrieve,.discuss_liker_post,.discuss_follower_post{
+    position:relative;
+    color:#B7B7B7;
+  }
+  .discuss_reply_retrieve:hover,.discuss_liker_post:hover,.discuss_follower_post:hover{
+    text-decoration:none;
+    position:relative;
+    color:#B7B7B7;
+  }
+  .discuss_reply_retrieve:link,.discuss_liker_post:link,.discuss_follower_post:link{
+    text-decoration:none;
+    position:relative;
+  }
+  .discuss_post_input{
+    font-size:1.5em;
+		margin-top:1em;
+		width:100%;
+  }
+
+
+  .discuss_content,.discuss_last_reply_content{
+    position:relative;
+    text-align:justify;
+  }
+
+
+  .discuss_post_group{
+    position:relative;
+    height:98%;
+    overflow:scroll;
+
+  }
+  .discuss_new_box{
+    position:relative;
+    height:80%;
+    width:100%;
+    background:rgba(128, 128, 128, 0.38);
+  }
+
+  .discuss_disabling_like{
+    color:#3DB1CE;
+    pointer-events: none;
+     cursor: default;
+
+  }
+  .discuss_close_new_box{
+    position:relative;
+    color:white;
+    font-size:3vh;
+  }
