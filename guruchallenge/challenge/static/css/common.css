@@ -1,0 +1,312 @@
+/** Common **/
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color:rgba(236,240,241,1);
+  font-family: 'Lato', sans-serif;
+}
+.content_wrapper
+{
+  min-height:30em;
+}
+#footer
+{
+  position: relative;
+  width: 100%;
+  margin-top: 5em;
+  min-height:10em;
+}
+#footer .navbar-chalk-black
+{
+  background-color: #333;
+  color:#fcfcfc;
+}
+/** BOOTSTRAP CUSTOM **/
+.btn,.input-group-addon,.form-control
+	{
+		border-radius: 0;
+	}
+  .bc1 /*light grey, dark grey, black, white, theme*/
+  {
+    background-color:rgba(236,240,241,1);
+  }
+  .bc4
+  {
+    background-color:#ffffff;
+  }
+  .bc5
+  {
+    background-color:#018abc;
+  }
+  .fc1/*light grey, dark grey, black,white, theme*/
+  {
+    color:#9d9d9d;
+  }
+  .fc3
+  {
+    color:#000000;
+  }
+  .fc4,.fc4:hover
+  {
+    color:#ffffff;
+  }
+  .fc5
+  {
+    color:#018abc;
+  }
+  .fc6
+  {
+    color:#BC011D;
+  }
+/** LOGO **/
+.logo_white,.logo_black
+{
+  background:url(../imgs/logo_white.png) no-repeat;
+  background-size: 100%;
+  display:inline-block;
+  height:50px;
+  width:200px;
+}
+.logo_black
+{
+  background:url(../imgs/logo_white.png) no-repeat;
+}
+.logo_white_signal,.logo_black_signal
+{
+  background:url(../imgs/logo_white_signal.png) no-repeat;
+  display:block;
+  height:55px;
+  width:55px;
+}
+.logo_black_signal
+{
+  background:url(../imgs/logo_black_signal.png) no-repeat;
+}
+.logo_signal_wrapper
+{
+  background-color:#3b5996;
+  border-radius:0em 1em;
+  display:block;
+  padding:1em;
+  position:absolute;
+}
+
+/** NAVBAR **/
+.navbar-chalk
+{
+  /*background: #fff;*/
+  background-color: #333;
+  border-radius: 0;
+  border:none;
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  margin-bottom: 0;
+}
+.navbar-chalk .logo
+{
+	background-size: 100%;
+  margin-top: 0.3em;
+  margin-left:0.5em;
+}
+.navbar-chalk .nav>li>a
+{
+  color:#9D9D9D;
+  margin-right: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.navbar-chalk .nav>li>a:hover,.navbar-chalk .nav>li>a:focus
+{
+  color:#fff;
+  background: none;
+  border:none;
+  outline:none;
+}
+.navbar-chalk  .navbar-nav.navbar-right
+{
+  margin-right:0em;
+}
+.navbar-chalk .navbar-toggle .icon-bar
+{
+  background-color: #fff;
+}
+
+.navbar-chalk .notification
+{
+  background:url(../imgs/bell.png) no-repeat center center;
+  width:30px;
+  height:30px;
+}
+
+.navbar-chalk .profile
+  {
+    background:url(../imgs/profile.png) no-repeat;
+    display:block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+}
+
+.navbar-chalk .arrow:before
+{
+    font-family: 'Glyphicons Halflings';
+    content:"\e252";
+    color:#d8dddf;
+    font-size: 0.7em;
+    position:relative;
+    left:35px;
+    top:0.5em;
+}
+.navbar-chalk .navbar-toggle
+{
+  border: 1px solid rgb(12, 12, 12);
+}
+.navbar-chalk .navbar-toggle .icon-bar {
+  background-color: #1D1717;
+}
+@media only screen and (max-width: 766px) {
+  .navbar-chalk .collapsing,.navbar-chalk .in
+  {
+    background: #000000;
+    background-color: rgba(0, 0, 0, 0.95);
+    color:#fff !important;
+  }
+}
+.navbar-chalk-black
+{
+  border-radius: 0;
+  margin-bottom: 0;
+  padding:0.5em;
+}
+
+.refcode
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #018ABC;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.course_access_denied
+{
+  margin-top:15%;
+  text-align: center;
+  font-size:2em;
+}
+
+.signup_style,.forgot_style{
+display: inline-block;
+font-weight:bold;
+cursor:pointer;
+color:#1392C0;
+margin-top: 0.5em;
+}
+.signup_style:hover,.forgot_style:hover{
+color:black;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #EEEEEE inset;
+}
+
+.add-form-control{
+  color:black;
+  background:#EEEEEE;
+}
+
+
+
+.or_styling{
+  background-color: white;
+  position: relative;
+  left:46%;
+   top: -0.8em;
+}
+
+.splitting_line{
+  border-top: #9d9d9d dashed 1px;
+
+}
+.study_option_style{
+  border:solid 1px;
+  font-size:1.1em;
+  padding:.5em;
+  text-align:center;
+}
+
+.study_selected{
+  background:#27ae60;
+  color:white;
+}
+
+.white_box{
+background:white;
+
+}
+.review_show_place{
+  color:black;
+}
+.discount_banner
+{
+  position: absolute;
+
+    color: rgb(197, 29, 29);
+    left: 82%;
+    margin-top: -0.3%;
+
+}
+.discount_tilt{
+ color:white;
+ position:absolute;
+ width: 20%;
+ top: 2.6em;
+ font-size: 1.1em;
+ left: 88%;
+
+ -ms-transform: rotate(40deg);
+ -webkit-transform: rotate(40deg);
+ transform: rotate(45deg);
+ z-index:6;
+}
+
+
+.face_banner{
+  position: fixed;
+  top:14.5%;
+  z-index: 20;
+  background:white;
+  border-bottom: white solid 1em;
+
+}
+
+.first_half_banner_face{
+
+  background: #E6EAEC;
+}
+
+.face_college_name,.face_trainer_name{
+  border:none;
+  width: 120%;
+  background-color: #E6EAEC;
+  height: 4em;
+}
+
+.second_half_banner_face{
+
+height:300%auto;
+}
+
+.bc2{
+  color:#35AFE0;
+}
